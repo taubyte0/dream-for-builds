@@ -45,4 +45,4 @@ jobs:
           args: release --config ../${{ matrix.config }}
           workdir: tau
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GORELEASER_TOKEN }}
